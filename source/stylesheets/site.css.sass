@@ -21,8 +21,8 @@ $separator-width: 12px
 $hairline: 1px
 $magic: 2px
 $bio-width: ($total-width - $hairline) / 2 - $separator-width - $magic
-$img-width: $bio-width + $separator-width + $hairline
-$h1-width: $total-width - $img-width
+$h1-width: $bio-width + $separator-width + $magic + $hairline
+$img-width: $total-width - $h1-width
 
 @include global-reset
 

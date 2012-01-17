@@ -1,0 +1,100 @@
+@import "compass"
+
+$background-color: black
+$main-color: #aac
+$font-color:  white
+
+$link-color:         $main-color
+$link-hover-color:   darken($main-color, 0.3)
+$link-focus-color:   false
+$link-active-color:  false
+$link-visited-color: false
+
+$serif: georgia, "times new roman", times, serif 
+$font-family: arial, freesans, clean, sans-serif
+$black-font-family: "arial black", arial, freesans, clean, sans-serif
+$base-font-size:   1.5em
+$base-line-height: 1.5em
+
+$total-width: 900px
+$separator-width: 12px
+$hairline: 1px
+$magic: 2px
+$bio-width: ($total-width - $hairline) / 2 - $separator-width - $magic
+$img-width: $bio-width + $separator-width + $hairline
+$h1-width: $total-width - $img-width
+
+@include global-reset
+
+body
+  font-family: $font-family
+  line-height: $base-line-height
+  background-color: $background-color
+  color: $font-color 
+
+
+a
+  @include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color)
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+#main
+  margin: 0 auto
+  width: $total-width
+
+.photo
+  float: right
+  img
+    width: $img-width
+
+h1
+  width: $h1-width
+  .main
+    font-family: $black-font-family
+    line-height: 1em
+    font-size: 300%
+    color: $main-color
+  .title
+    font-family: $black-font-family
+    font-size: 140%
+    line-height: 1em
+    margin-top: 10px
+    width: 100%
+    .fr, .en, .sep
+      display: inline
+    .sep
+      color: $main-color
+      margin: 0 0.5em
+  .contact
+    margin-top: 3.5em
+    line-height: 1em
+    margin-left: auto
+    .tel, .email, .sep
+      display: inline
+    .email
+      margin-left: 45px
+    .sep
+      display: none
+      color: $main-color
+      margin: 0 0.5em
+
+
+.bios
+  width: $total-width
+  clear: both
+
+.bio
+  width: $bio-width
+  display: inline-block
+  padding-top: 10px
+  vertical-align: top
+.bio + .bio
+  margin-left: $separator-width
+  border-left: solid $hairline fade-out($main-color, 0.5)
+  padding-left: $separator-width
+
+p + p
+  margin-top: $base-line-height
+
+  

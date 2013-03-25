@@ -20,6 +20,8 @@
     :movie: Warm Bodies
   - :file: spivet_tattoo.jpg
     :movie: The Young and Prodigious Spivet
+  - :file: road.jpg
+    :movie: On the Road
   - :file: kabuki.jpg
     :movie: Beastly
   - :file: kabuki2.jpg
@@ -30,8 +32,10 @@
     :movie: The Timekeeper
   - :file: timekeeper3.jpg
     :movie: The Timekeeper
-  - :file: road.jpg
-    :movie: On the Road
+  - :file: durham.jpg
+    :movie: Durham County
+  - :file: durham2.jpg
+    :movie: Durham County
 :movies:
   Warm Bodies: tt1588173
   The Young and Prodigious Spivet: tt1981107
@@ -40,3 +44,4 @@
   The Timekeeper: tt1087872
   Mirror Mirror: tt1667353
   On the Road: tt0337692
+  Durham County: tt0885761

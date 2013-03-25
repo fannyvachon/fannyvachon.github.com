@@ -2,8 +2,8 @@
 :gallery:
   - :file: mirror.jpg
     :movie: Mirror Mirror
-  - :file: mirror2.jpg
-    :movie: Mirror Mirror
+  - :file: spivet.jpg
+    :movie: The Young and Prodigious Spivet
   - :file: spivet_transformation.jpg
     :movie: The Young and Prodigious Spivet
   - :file: zero.jpg
@@ -22,16 +22,20 @@
     :movie: The Young and Prodigious Spivet
   - :file: road.jpg
     :movie: On the Road
-  - :file: kabuki.jpg
-    :movie: Beastly
+  - :file: phantom.jpg
+    :movie: The Phantom
   - :file: kabuki2.jpg
     :movie: Beastly
+  - :file: timekeeper_montage.jpg
+    :movie: The Timekeeper
+    :who: Roy Dupuis, Craig Olejnik & al.
+    :credit: Nominee for “Best make-up artist” Jutra 2010 award
   - :file: timekeeper.jpg
     :movie: The Timekeeper
+    :credit: Nominee for “Best make-up artist” Jutra 2010 award
   - :file: timekeeper2.jpg
     :movie: The Timekeeper
-  - :file: timekeeper3.jpg
-    :movie: The Timekeeper
+    :credit: Nominee for “Best make-up artist” Jutra 2010 award
   - :file: durham.jpg
     :movie: Durham County
   - :file: durham2.jpg
@@ -45,3 +49,5 @@
   Mirror Mirror: tt1667353
   On the Road: tt0337692
   Durham County: tt0885761
+  The Phantom: tt1438437
+

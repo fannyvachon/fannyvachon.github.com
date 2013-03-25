@@ -67,7 +67,7 @@ helpers do
   end
 
   def data
-    @data ||= YAML.load_file('source/config.yaml')
+    @data ||= YAML.load_file('config.yaml')
     @data
   end
 

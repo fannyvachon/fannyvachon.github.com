@@ -10,7 +10,7 @@ $link-focus-color:   false
 $link-active-color:  false
 $link-visited-color: false
 
-$serif: georgia, "times new roman", times, serif 
+$serif: georgia, "times new roman", times, serif
 $font-family: arial, freesans, clean, sans-serif
 $black-font-family: "arial black", arial, freesans, clean, sans-serif
 $base-font-size:   1.5em
@@ -30,7 +30,7 @@ body
   font-family: $font-family
   line-height: $base-line-height
   background-color: $background-color
-  color: $font-color 
+  color: $font-color
 
 
 a
@@ -94,7 +94,30 @@ h1
   border-left: solid $hairline fade-out($main-color, 0.5)
   padding-left: $separator-width
 
+.portfolio
+  .gallery
+    position: absolute
+    .image
+      width: 900px
+      margin-top: 20px
+      height: 740px
+      background-color: black
+      img
+        width: 900px
+        height: 675px
+      .label
+        position: absolute
+        bottom: 30px
+      .credit
+        position: absolute
+        bottom: 30px
+        text-align: right
+        width: 100%
+        color: #999
+
+
+
 p + p
   margin-top: $base-line-height
 
-  
+

@@ -19,7 +19,7 @@
   .bio.fr
     %p
       Fanny Vachon est maquilleuse dans le domaine du cinéma depuis plus de 12 ans.
-      
+
     %p
       Elle était chef maquilleuse sur des long métrages
       de #{who("Louis Bélanger")} et de #{who("Jean-Phillipe Pearson")}, ainsi que pendant 3 ans
@@ -51,4 +51,22 @@
     %p
       For an exhaustive list of productions Fanny Vachon has worked on, please refer to
       her #{link_to "filmography on IMDB.com", "http://www.imdb.com/name/nm1005101/"}.
-      
+
+
+.portfolio
+  .nav
+    - images.each_with_index do |img, i|
+      - if img[:section]
+        %a.section{href: "##{img[:section].parameterize}", data: {index: i}}
+          = img.section
+  .gallery
+    - images.each do |img|
+      .image
+        %img{src: "images/gallery/#{img[:file]}"}
+        .label
+          - if img[:who]
+            = img[:who]
+            in
+          = movie(img)
+        - if img[:credit]
+          .credit=img[:credit]

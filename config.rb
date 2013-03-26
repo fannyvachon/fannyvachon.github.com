@@ -77,6 +77,7 @@ helpers do
 
   def movie(m)
     m = m[:movie] if m.is_a?(Hash)
+    return '' unless m
     @movies ||= data[:movies]
     link_to m, "www.imdb.com/title/#{@movies.fetch(m)}/"
   end

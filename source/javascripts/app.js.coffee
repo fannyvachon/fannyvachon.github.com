@@ -1,3 +1,6 @@
+#= require jquery.cycle.lite
+#= require jquery.vivified
+
 class Gallery extends $.Vivified
   @vivify()
 

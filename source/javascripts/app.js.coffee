@@ -1,5 +1,7 @@
 #= require jquery.cycle.lite
 #= require jquery.vivified
+#= require jquery.touchwipe
+# From:http://www.netcu.de/jquery-touchwipe-iphone-ipad-library
 
 class Gallery extends $.Vivified
   @vivify()
@@ -8,6 +10,11 @@ class Gallery extends $.Vivified
     @gallery = @find('.gallery').cycle
       fx: 'scrollLeft'
     @click => @gallery.cycle('toggle')
+    @gallery.touchwipe
+      wipeLeft: => @gallery.cycle('next')
+      wipeRight: => @gallery.cycle('prev', 'scrollRight')
+      preventDefaultEvents: true
+
     # @nav = @find('.nav').on 'click', (evt) => @goto($(evt.target))
     # @indices = $(link).data('index')
     $(document).on 'keydown', (e) =>

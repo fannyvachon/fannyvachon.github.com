@@ -59,11 +59,17 @@ helpers do
       "Louis Bélanger" => "nm0126802",
       "Jean-Phillipe Pearson" => "nm1203798",
       "Julie Casault"   => "nm0143078",
-      "Annick Chartier" => "nm0153562",
-      "Colleen Quinton" => "nm0704272",
+      "Annick Chartier" => ["nm0153562", 'Montréal'],
+      "Colleen Quinton" => ["nm0704272", 'Montréal'],
       "Nicole Lapierre" => "nm0487546",
+      "Nathalie Tissier" => ["nm0864398", "France"],
+      "Eva Coudouloux" => ["nm0183286", 'Toronto'],
+      "Monica Huppert" => ["nm0403284", 'Vancouver'],
     }
-    link_to n, "http://www.imdb.com/name/#{all.fetch(n)}/"
+    id, where = all.fetch(n)
+    r = link_to(n, "http://www.imdb.com/name/#{id}/")
+    r << ' ' << content_tag(:span, "(#{where})", class: 'where') if where
+    r
   end
 
   def data

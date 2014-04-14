@@ -17,10 +17,11 @@ $base-font-size:   1.5em
 $base-line-height: 1.5em
 
 $total-width: 900px
-$separator-width: 12px
+$separator-width: 13px
 $hairline: 1px
+$fudge: 1px
 $magic: 2px
-$bio-width: ($total-width - $hairline) / 2 - $separator-width - $magic
+$bio-width: ($total-width - $hairline - $fudge) / 2 - $separator-width - $magic
 $h1-width: $bio-width + $separator-width + $magic + $hairline
 $img-width: $total-width - $h1-width
 

@@ -1,22 +1,19 @@
 ---
 :gallery:
+  - :file: fantasy.jpg
   - :file: mirror.jpg
     :movie: Mirror Mirror
   - :file: spivet.jpg
     :movie: The Young and Prodigious Spivet
-  - :file: spivet_transformation.jpg
-    :movie: The Young and Prodigious Spivet
-  - :file: spivet2.jpg
-    :movie: The Young and Prodigious Spivet
-    :credit: Photo by Jan Thijs‚ © 2012
-  - :file: spivet3.jpg
-    :movie: The Young and Prodigious Spivet
-  - :file: zero.jpg
-    :movie: Zero Hour
-    :who: Michael Nyqvist
-    :credit: Photo by Phillippe Bosse – © 2012 American Broadcasting Companies, Inc.
-  - :file: mirror2.jpg
-    :movie: Mirror Mirror
+  - :file: road.jpg
+    :movie: On the Road
+  - :file: phantom.jpg
+    :movie: The Phantom
+  - :file: kabuki2.jpg
+    :movie: Beastly
+
+
+  - :file: wounds.jpg
   - :file: timekeeper_montage.jpg
     :movie: The Timekeeper
     :who: Roy Dupuis, Craig Olejnik & al.
@@ -27,41 +24,47 @@
   - :file: timekeeper2.jpg
     :movie: The Timekeeper
     :credit: Nominee for 2010 Jutra Award “Best make-up artist”
-  - :file: wb.jpg
-    :movie: Warm Bodies
-    :who: Analeigh Tipton
-    :credit: Photo by Jan Thijs‚ © 2012 Summit Entertainment, LLC.
   - :file: wb2.jpg
     :movie: Warm Bodies
   - :file: wb_transformation.jpg
     :movie: Warm Bodies
   - :file: spivet_tattoo.jpg
     :movie: The Young and Prodigious Spivet
-  - :file: road.jpg
-    :movie: On the Road
-  - :file: phantom.jpg
-    :movie: The Phantom
-  - :file: kabuki2.jpg
-    :movie: Beastly
   - :file: durham.jpg
     :movie: Durham County
   - :file: durham2.jpg
     :movie: Durham County
-  - :file: durham3.jpg
-    :movie: Durham County
-    :credit: Photo by Jan Thijs‚ © 2012
-  - :file: moth.jpg
-    :movie: Moth Diaries
-    :credit: Photo by Jan Thijs‚ © 2012
   - :file: riddick.jpg
     :movie: Riddick
     :credit: Photos by Jan Thijs‚ © 2012
+
+
+  - :file: characters.jpg
+  - :file: spivet_transformation.jpg
+    :movie: The Young and Prodigious Spivet
+  - :file: spivet2.jpg
+    :movie: The Young and Prodigious Spivet
+    :credit: Photo by Jan Thijs‚ © 2012
+  - :file: zero.jpg
+    :movie: Zero Hour
+    :who: Michael Nyqvist
+    :credit: Photo by Phillippe Bosse – © 2012 American Broadcasting Companies, Inc.
   - :file: helixduo.jpg
     :who: "Billy Campbell & Hiroyuki Sanada"
     :movie: Helix
   - :file: helixall.jpg
     :movie: Helix
+  - :file: mirror2.jpg
+    :movie: Mirror Mirror
+  - :file: wb.jpg
+    :movie: Warm Bodies
+    :who: Analeigh Tipton
+    :credit: Photo by Jan Thijs‚ © 2012 Summit Entertainment, LLC.
+  - :file: durham3.jpg
+    :movie: Durham County
+    :credit: Photo by Jan Thijs‚ © 2012
   - :file: chantal.jpg
+
 :movies:
   Warm Bodies: tt1588173
   The Young and Prodigious Spivet: tt1981107

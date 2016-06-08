@@ -53,6 +53,8 @@ helpers do
       "Nathalie Tissier" => ["nm0864398", "France"],
       "Eva Coudouloux" => ["nm0183286", 'Toronto'],
       "Monica Huppert" => ["nm0403284", 'Vancouver'],
+      "Rita Ciccozzi" => ["nm0162016", 'Vancouver'],
+      "Rosalina Da Silva" => ["nm0196301", 'Vancouver'],
     }
     id, where = all.fetch(n)
     r = link_to(n, "http://www.imdb.com/name/#{id}/")
